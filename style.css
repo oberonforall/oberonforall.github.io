@@ -43,6 +43,9 @@ a.procedure {
 code.keyword_def {
   color: #ff69b4;
 }
+font.rule_def {
+  color: #2e8b57;
+}
 
 
 table, thead, th, tr, td {
