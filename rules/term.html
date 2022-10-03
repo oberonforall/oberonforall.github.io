@@ -10,6 +10,42 @@
 
         <h2><font class="rule_def">term</font>:</h2>
         <font class="rule_def">term</font> = <a class="rule" href="factor.html"><var>factor</var></a> {<a class="rule" href="MulOperator.html"><var>MulOperator</var></a> <a class="rule" href="factor.html"><var>factor</var></a>}
+        <hr>
+
+        <h2><font class="rule_def">Some examples</font>:</h2>
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    IMPORT Out;
+    VAR i: INTEGER; foo: REAL;
+BEGIN
+    FOR i := 0 TO 10 DO
+        Out.Int(i, 2);
+    END
+END FOR_EXAMPLE.</code></pre></div>
+
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    VAR i: INTEGER;
+BEGIN
+    foo;
+END FOR_EXAMPLE.</code></pre></div>
+
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    IMPORT Out;
+    VAR i: INTEGER; foo: REAL;
+BEGIN
+    FOR i := 0 TO 10 DO
+        Out.Int(i, 2);
+    END
+END FOR_EXAMPLE.</code></pre></div>
+
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    VAR i: INTEGER;
+BEGIN
+    foo;
+END FOR_EXAMPLE.</code></pre></div>
 
         <p class="sticky" style="bottom: 0;" align="right">
             Places in the syntax where you might come from:

@@ -10,6 +10,39 @@
 
         <h2><font class="rule_def">ForStatement</font>:</h2>
         <font class="rule_def">ForStatement</font> = <a class="keyword" href="../keywords/FOR.html"><code>FOR</code></a> <a class="rule" href="ident.html"><var>ident</var></a> <font class="character">":="</font> <a class="rule" href="expression.html"><var>expression</var></a> <a class="keyword" href="../keywords/TO.html"><code>TO</code></a> <a class="rule" href="expression.html"><var>expression</var></a> [<a class="keyword" href="../keywords/BY.html"><code>BY</code></a> <a class="rule" href="ConstExpression.html"><var>ConstExpression</var></a>] <a class="keyword" href="../keywords/DO.html"><code>DO</code></a> <a class="rule" href="StatementSequence.html"><var>StatementSequence</var></a> <a class="keyword" href="../keywords/END.html"><code>END</code></a>
+        <hr>
+
+        <h2><font class="rule_def">Some examples</font>:</h2>
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    IMPORT Out;
+    VAR i: INTEGER; foo: REAL;
+BEGIN
+    FOR i := 0 TO 10 DO
+        Out.Int(i, 2);
+    END
+END FOR_EXAMPLE.</code></pre></div>
+
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    VAR i: INTEGER;
+BEGIN
+    foo;
+END FOR_EXAMPLE.</code></pre></div>
+
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    VAR i: INTEGER;
+BEGIN
+    foo;
+END FOR_EXAMPLE.</code></pre></div>
+
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    VAR i: INTEGER;
+BEGIN
+    foo;
+END FOR_EXAMPLE.</code></pre></div>
 
         <p class="sticky" style="bottom: 0;" align="right">
             Places in the syntax where you might come from:

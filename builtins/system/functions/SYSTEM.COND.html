@@ -13,6 +13,42 @@
             <code>SYSTEM.COND(n: INTEGER): BOOLEAN</code>
             <h3><font class="function">description</font></h3>
                 <code>IF Cond(n) THEN ...</code>
+        <hr>
+
+        <h2><font class="rule_def">Some examples</font>:</h2>
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    IMPORT Out;
+    VAR i: INTEGER; foo: REAL;
+BEGIN
+    FOR i := 0 TO 10 DO
+        Out.Int(i, 2);
+    END
+END FOR_EXAMPLE.</code></pre></div>
+
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    VAR i: INTEGER;
+BEGIN
+    foo;
+END FOR_EXAMPLE.</code></pre></div>
+
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    IMPORT Out;
+    VAR i: INTEGER; foo: REAL;
+BEGIN
+    FOR i := 0 TO 10 DO
+        Out.Int(i, 2);
+    END
+END FOR_EXAMPLE.</code></pre></div>
+
+            <div align="left">
+            <pre class="snippet" align="left"><code>MODULE FOR_EXAMPLE;
+    VAR i: INTEGER;
+BEGIN
+    foo;
+END FOR_EXAMPLE.</code></pre></div>
 
         <p class="sticky" style="bottom: 0;" align="right">
             Other <i><code>SYSTEM</code> function procedures</i>:
