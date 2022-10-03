@@ -71,3 +71,14 @@ table, thead, th, tr, td {
   border: 1px solid grey;
   border-collapse: collapse;
 }
+
+
+.sticky {
+  position: sticky;
+  background: var(--background);
+  border: 2px solid;
+  border-color: var(--white);
+  border-radius: 30px;
+  padding: 5px;
+  z-index: 1000;
+}
