@@ -46,7 +46,9 @@ code.keyword_def {
 font.rule_def {
   color: #2e8b57;
 }
-
+font.character {
+  color: #d2b48c;
+}
 
 table, thead, th, tr, td {
   border: 1px solid grey;
