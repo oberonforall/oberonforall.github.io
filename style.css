@@ -14,3 +14,7 @@ a {
   margin-left: 20px;
 }
 
+table, thead, th, tr, td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
