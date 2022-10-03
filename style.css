@@ -82,3 +82,12 @@ table, thead, th, tr, td {
   padding: 5px;
   z-index: 1000;
 }
+
+pre.snippet {
+  background: var(--grey);
+  border-radius: 30px;
+  padding: 30px;
+  border: 2px solid var(--magenta);
+  width: fit-content;
+  filter: brightness(70%) saturate(50%);
+}
