@@ -40,6 +40,11 @@ a.procedure {
 }
 
 
+code.keyword_def {
+  color: #ff69b4;
+}
+
+
 table, thead, th, tr, td {
   border: 1px solid grey;
   border-collapse: collapse;
