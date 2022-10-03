@@ -9,10 +9,36 @@ body {
   color: #c3d88d !important;
 }
 
+
 a {
-  color: red;
   margin-left: 20px;
 }
+a.external {
+  color: green;
+}
+a.internal {
+  color: #7fff00;
+}
+a.toc {
+  color: red;
+}
+a.totoc {
+  color: red;
+  filter: brightness(50%);
+}
+a.rule {
+  color: #ff00ff;
+}
+a.keyword {
+  color: #ffff00;
+}
+a.function {
+  color: #ff8c00;
+}
+a.procedure {
+  color: #00bfff;
+}
+
 
 table, thead, th, tr, td {
   border: 1px solid grey;
