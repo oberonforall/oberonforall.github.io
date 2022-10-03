@@ -1,17 +1,70 @@
+:root {
+  --grey:    #000000;
+  --red:     #ff5555;
+  --green:   #50fa7b;
+  --yellow:  #f0fa8b;
+  --blue:    #bd92f8;
+  --magenta: #ff78c5;
+  --cyan:    #8ae9fc;
+  --white:   #bbbbbb;
+  --background: #1e1f28;
+  --foreground: #f8f8f2;
+}
+
 body {
   font-size: 30px;
-  background-color: #282a36 !important;
-  color: #d0d0d0 !important;
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
 }
 
 #header {
-  background-color: #282a36 !important;
-  color: #c3d88d !important;
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
 }
 
+
 a {
-  color: red;
   margin-left: 20px;
+}
+a.external {
+  color: var(--green);
+}
+a.internal {
+  color: var(--green);
+  filter: brightness(70%) saturate(50%);
+}
+a.toc {
+  color: var(--red);
+}
+a.totoc {
+  color: var(--red);
+  filter: brightness(70%) saturate(50%);
+}
+a.rule {
+  color: var(--magenta);
+}
+a.keyword {
+  color: var(--yellow);
+}
+a.function, font.function {
+  color: var(--blue);
+}
+a.procedure, font.procedure{
+  color: var(--cyan);
+}
+
+
+code.keyword_def {
+  color: var(--yellow);
+  filter: brightness(70%) saturate(50%);
+}
+font.rule_def {
+  color: var(--magenta);
+  filter: brightness(70%) saturate(50%);
+}
+font.character {
+  color: var(--yellow);
+  filter: brightness(50%) saturate(50%);
 }
 
 table, thead, th, tr, td {
