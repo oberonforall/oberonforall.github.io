@@ -22,6 +22,9 @@ body {
   color: var(--foreground) !important;
 }
 
+p.catch-phrase {
+  color: var(--blue);
+}
 
 a {
   margin-left: 20px;
