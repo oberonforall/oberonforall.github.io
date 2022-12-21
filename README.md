@@ -1,4 +1,4 @@
-# oberonforall/oberonforall.github.io
+# oberonforall.github.io
 All the source files for the website of the ISAE Oberon project.
 
 ## Structure of the website
